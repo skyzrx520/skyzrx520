@@ -114,9 +114,9 @@ homeNav:
   show: true  # 是否显示
   title: "网站推荐"  # 标题
   list: #以下列表数量不限可以无限添加，但请注意格式
-    - text: "萌通官网"
+    - text: "闪电狗官网"
       icon: "https://i3.mjj.rip/2023/07/10/c3e61eb2c26557451924b69516a88a11.png"
-      link: "https://moetor.one"
+      link: "https://shandiandog.com"
       needConnected: false # 是否在连接状态下才能跳转
     - text: "Google"
       icon: "https://i3.mjj.rip/2023/07/10/46daf515c691dffc8be5389efa01b215.webp"
