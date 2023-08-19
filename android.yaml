@@ -13,11 +13,11 @@ apiUrl: "https://shandiandog.com"
 crispId: "05099661-d4fa-468a-bdf8-f71136e82eba"
 
 # 邀请链接，APP里点复制链接，邀请码会拼接在最后
-inviteUrl: "https://moetor.one/#/register?code="
+inviteUrl: "https://shandiandog.com/#/register?code="
 
 # 节点延迟的展示相关
 nodeDelayShow:
-  type: 1 # 展示方式：0=延迟数值，1=信号图标
+  type: 0 # 展示方式：0=延迟数值，1=信号图标
   colorBest: 1500 # 延迟数值/图标颜色：延迟小于此值为绿色
   colorGood: 2500 # 延迟数值/图标颜色：延迟小于此值并大于{colorBest}为黄色，大于此值为红色
 
@@ -31,7 +31,7 @@ agreements:
   # 第一次进入 app 的弹窗标题
   title: "个人信息保护提示"
   # 第一次进入 app 的弹窗内容，支持文字a标签跳转
-  content: "感谢您使用测萌通加速！我们将依据<a href='https://moetor.one/user-agreement.html'>《用户服务协议》</a>和<a href='https://moetor.one/privacy-policy.html'>《隐私政策》</a>来帮助您了解我们在收集、使用、存储和共享您个人信息的情况以及您享有的相关权利。<br><br>1、您可以通过查看《用户服务协议》和《隐私政策》来了解我们可能收集、使用的您的个人信息情况；<br><br>2、基于您的明示授权，我们可能调用您的重要设备权限。我们将在首次调用时逐项询问您是否允许使用该权限，您有权拒绝或取消授权；<br><br>3、我们会采取业界先进的安全措施保护您的信息安全；<br><br>4、您可以查询、更正、删除、撤回授权您的个人信息，我们也提供账户注销的渠道。<br><br>"
+  content: "感谢您使用闪电狗加速！我们将依据<a href='https://moetor.one/user-agreement.html'>《用户服务协议》</a>和<a href='https://moetor.one/privacy-policy.html'>《隐私政策》</a>来帮助您了解我们在收集、使用、存储和共享您个人信息的情况以及您享有的相关权利。<br><br>1、您可以通过查看《用户服务协议》和《隐私政策》来了解我们可能收集、使用的您的个人信息情况；<br><br>2、基于您的明示授权，我们可能调用您的重要设备权限。我们将在首次调用时逐项询问您是否允许使用该权限，您有权拒绝或取消授权；<br><br>3、我们会采取业界先进的安全措施保护您的信息安全；<br><br>4、您可以查询、更正、删除、撤回授权您的个人信息，我们也提供账户注销的渠道。<br><br>"
   # 服务协议url
   serviceLink: "https://moetor.one/user-agreement.html"
   # 隐私政策url
@@ -68,7 +68,7 @@ shop:
   title: "购买订阅"
   desc: "选择最适合您的计划"
   list:
-    - id: 1  # 对应v2b的套餐id字段
+    - id: 3  # 对应v2b的套餐id字段
       name: "标准版"  # 套餐名称
       price: "¥10.00"  # 套餐价格，这里需要把货币单位加上
       type: "month_price"  # 付款周期类型：[月付：month_price，季付：quarter_price，半年付：half_year_price，年付：year_price，两年付：two_year_price，三年付：three_year_price，一次性：onetime_price]
